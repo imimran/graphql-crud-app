@@ -7,9 +7,13 @@ import cors from 'cors';
 import bodyParser from 'body-parser'
 import {typeDefs} from './graphql/typeDefs'
 import resolvers from './graphql/resolvers'
+import { connectToDatabase } from './db';
 
 
 const app = express();
+
+// connect db
+connectToDatabase()
 
 
 const httpServer = http.createServer(app);
