@@ -20,5 +20,6 @@ type Category {
     createCategory(input: CategoryInput!): Category
     updateCategory(id: ID!, input: CategoryInput!): Category
     deleteCategory(id: ID!): Boolean
+    deactivateCategory(id: ID!): Boolean
   }
   `;
