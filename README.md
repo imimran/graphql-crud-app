@@ -1,9 +1,11 @@
 # graphql-task-assessment
 
 Introduction:
+
 This document provides instructions for deploying a GraphQL Category CRUD API. This API allows you to manage categories, including creating, reading, updating, deactiving, and deleting categories.
 
  Prerequisites: 
+ 
  Before deploying the GraphQL Category CRUD API, make sure you have the following prerequisites in place:
 
        - Node.js 16+ 
@@ -25,6 +27,7 @@ Then run this command to start your local server
 
 
 Configuration:
+
 Configure the project settings:
 
 Create a .env file in the project root directory.
