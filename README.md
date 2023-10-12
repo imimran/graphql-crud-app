@@ -29,5 +29,5 @@ Configure the project settings:
 
 Create a .env file in the project root directory.
 Add configuration options and sensitive information to the .env file.
-MONGODB_URI=database_connection_string_here
-PORT=surver_port_number
+  - MONGODB_URI=database_connection_string_here
+  - PORT=surver_port_number
