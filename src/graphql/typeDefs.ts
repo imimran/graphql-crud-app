@@ -1,6 +1,6 @@
 export const typeDefs = `#graphql
 type Category {
-    id: ID!
+    _id: ID!
     name: String!
     parent: Category
     isActive: Boolean!
