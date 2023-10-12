@@ -32,11 +32,11 @@ const bootstrapServer = async () => {
     bodyParser.json(),
     expressMiddleware(server),
   );
-
+  
   const Port = process.env.PORT || 4000
 
   await new Promise<void>((resolve) => httpServer.listen({ port: Port }, resolve));
-  console.log(`🚀 Server ready at http://localhost:4000`);
+  console.log(`🚀 Server ready at ${Port}`);
 }
 
 bootstrapServer()

@@ -1,4 +1,3 @@
-import { log } from 'console';
 import redis from '../libs/redis';
 import Category, { CategoryInput } from './../models/category.model';
 
