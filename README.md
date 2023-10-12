@@ -18,10 +18,10 @@ Clone the repository with the following command:
 git clone https://github.com/imimran/graphql-task-assessment.git
 
 Run in terminal this command:
-yarn 
+   - yarn 
 
 Then run this command to start your local server
-yarn dev
+   - yarn dev
 
 
 Configuration:
