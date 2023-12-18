@@ -1,4 +1,4 @@
-# graphql-task-assessment
+# graphql crud with typescript
 
 Introduction:
 
